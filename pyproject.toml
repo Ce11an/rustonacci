@@ -5,7 +5,6 @@ build-backend = "maturin"
 [project]
 name = "rustonacci"
 description = "A fast and memory efficient fibonacci generator."
-readme = "README.md"
 authors = [
   { name = "Cellan Hall", email = "hallcellan@gmail.com" },
 ]

@@ -2,6 +2,9 @@
 requires = ["maturin>=0.14,<0.15"]
 build-backend = "maturin"
 
+[tool.maturin]
+python-source = "python"
+
 [project]
 name = "rustonacci"
 description = "A fast and memory efficient fibonacci generator."

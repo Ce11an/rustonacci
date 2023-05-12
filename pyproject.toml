@@ -1,0 +1,30 @@
+[build-system]
+requires = ["maturin>=0.14,<0.15"]
+build-backend = "maturin"
+
+[project]
+name = "rustonacci"
+description = "A fast and memory efficient fibonacci generator."
+readme = "README.md"
+authors = [
+  { name = "Cellan Ha;;", email = "hallcellan@gmail.com" },
+]
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+dependencies = [
+  "typing_extensions >= 4.0.1; python_version < '3.9'",
+]
+keywords = ["fibonacci", "rust"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX",
+  "Operating System :: MacOS :: MacOS X",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Rust",
+]

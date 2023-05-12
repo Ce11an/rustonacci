@@ -1,1 +1,1 @@
-from .rustonacci import *
+from rustonacci import *

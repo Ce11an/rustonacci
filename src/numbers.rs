@@ -23,3 +23,13 @@ pub fn convert_to_fibonacci(values: Vec<u64>) -> Vec<u64> {
     }
     fib_values
 }
+
+#[cfg(test)]
+mod convert_to_fibonacci_tests {
+    use super::*;
+
+    #[test]
+    fn test_convert_to_fibonacci() {
+        assert_eq!(convert_to_fibonacci(vec![1, 2, 3, 4, 5]), vec![1, 1, 2, 3, 5]);
+    }
+}
